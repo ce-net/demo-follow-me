@@ -1,0 +1,15 @@
+== 10:22:53 Read
+{"node":"c79d26491eaa3de8","pad":"follow-me","refs":[{"kind":"cell","label":"pad text, state.store key sessionpad/pads/follow-me","to":"state.store/Get"}],"text":"typed before the move. typed before the move at 10:22:08. typed after the move. ","trimmed":false,"version":3}
+== 10:22:53 net.find
+{"replicas":[{"healthy_ms":0,"node":"c79d26491eaa3de8eab1eccd83942f96cfedb489584e2d212452dd32c2e9c979","schema_hash":13758204382481643093,"version":"1"}],"spawned":false}
+== 10:22:53 orch.up Down
+{"cell":"session.pad","detail":"stopped 1 process(es) of session.pad (pid 1380895 nothing to save)","node":"c79d26491eaa3de8","refs":[{"kind":"cell","label":"cell.install on that node","to":"cell.install/Job"}],"state":"Down","took_ms":7}
+== 10:22:56 net.find
+{"replicas":[{"healthy_ms":0,"node":"c79d26491eaa3de8eab1eccd83942f96cfedb489584e2d212452dd32c2e9c979","schema_hash":13758204382481643093,"version":"1"}],"spawned":false}
+1389917
+== 10:22:56 orch.up Up
+{"cell":"session.pad","detail":"1 process(es), source repo","node":"c79d26491eaa3de8","refs":[{"kind":"cell","label":"cell.install on that node","to":"cell.install/Job"}],"state":"Up","took_ms":503}
+== 10:23:00 net.find
+{"replicas":[{"healthy_ms":0,"node":"c79d26491eaa3de8eab1eccd83942f96cfedb489584e2d212452dd32c2e9c979","schema_hash":13758204382481643093,"version":"1"}],"spawned":false}
+== 10:23:00 Read
+{"node":"c79d26491eaa3de8","pad":"follow-me","refs":[{"kind":"cell","label":"pad text, state.store key sessionpad/pads/follow-me","to":"state.store/Get"}],"text":"typed before the move. typed before the move at 10:22:08. typed after the move. ","trimmed":false,"version":3}

@@ -1,0 +1,7 @@
+{
+  "app": "sessionpad",
+  "doc": "session.pad: one key per pad, pads/<pad> = {\"text\": string} (at most 1500 bytes of text). Repo ce-net/session-pad.",
+  "collections": {
+    "pads": {"doc": "<pad> = {\"text\": string}: the pad's whole text, written with compare-and-set", "value": {"type": "object", "properties": {"text": {"type": "string"}}, "required": ["text"]}}
+  }
+}
