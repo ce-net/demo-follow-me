@@ -55,7 +55,7 @@ presses Follow me, types again, and writes the screenshots and [proof/browser-ru
 
 ## Results (2026-11-15, one ARM server in Helsinki)
 
-- Round trip from the browser to the device, median of 5 pings: 1.1 to 2.2 ms (spikes to 13 ms under build load);
+- Round trip from the browser to the device, median of the 20 recorded samples in proof/browser-run.json: 1.95 ms (spikes to 15 ms under build load);
   a pad call through the door including the `state.store` read: about 15 ms.
 - Follow me with one device restarts the pad in place: `orch.up` Down then Up answered in 1.6 s; the pad process id
   changed; the text typed before (`version 2`) was there after, and the next append wrote `version 3`.
@@ -63,7 +63,7 @@ presses Follow me, types again, and writes the screenshots and [proof/browser-ru
 - `place.near.Watch` said "the holder is the nearest device" with gain 0 ms, so it did not suggest a move: correct
   with one device.
 
-Not shown yet: a move between two devices. The second device must issue this node a `cell.install` grant
+The recorded run moves the pad between processes on one machine. A move between two devices is not yet recorded. The second device must issue this node a `cell.install` grant
 (`install`, `stop` for `session.pad`) and a `state.store` grant for `sessionpad`, and run `net.rtt` and a ws-door
 reachable from browsers.
 
