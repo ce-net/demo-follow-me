@@ -1,0 +1,79 @@
+{
+ "text1": "typed before the move at 10:22:08.",
+ "before": {
+  "holder": "c79d26491eaa3de8",
+  "pad": "typed before the move. typed before the move at 10:22:08. ",
+  "advice": {
+   "why": "the holder is the nearest device",
+   "gain_ms": 0,
+   "suggest": false
+  }
+ },
+ "after": {
+  "holder": "c79d26491eaa3de8",
+  "pad": "typed before the move. typed before the move at 10:22:08. typed after the move. ",
+  "moves": [
+   {
+    "t": 1794738135657,
+    "from": "c79d26491eaa3de8",
+    "to": "c79d26491eaa3de8"
+   }
+  ]
+ },
+ "rtt_ms": {
+  "c79d26491eaa3de8": [
+   15,
+   14.8,
+   2.3,
+   1.4,
+   2.4,
+   2.2,
+   1.7,
+   1,
+   1.3,
+   12.3,
+   13.7,
+   1.2,
+   1.1,
+   11.8,
+   1.3,
+   2.2,
+   1.3,
+   1.6,
+   4,
+   1.6
+  ],
+  "pad": [
+   14.3,
+   14.6,
+   16.2,
+   15.2,
+   24.6,
+   3.7,
+   16.1,
+   17,
+   18.5,
+   16.1,
+   15.6,
+   16.3,
+   16.8,
+   2.7,
+   17.3,
+   14.9,
+   14,
+   15.1,
+   14.7,
+   15.5
+  ]
+ },
+ "events": [
+  "10:21:56 find 1 opted-in device(s): ARM server",
+  "10:21:56 find net.find Resolve session.pad@1 -> ARM server c79d2649 (page open)",
+  "10:22:08 pad typed \"typed before the move at 10:22:08.\" on ARM server c79d2649 (version 2)",
+  "10:22:14 move restart session.pad on ARM server c79d2649 (it is already the nearest device)",
+  "10:22:15 move orch.up answered in 1.6 s: {\"down\":{\"ok\":{\"cell\":\"session.pad\",\"node\":\"c79d26491eaa3de8\",\"state\":{\"tag\":\"Down\"},\"took_ms\":4,\"detail\":\"stopped 1 process(es) of session.pad (pid 1281519 not",
+  "10:22:15 pad text typed before the move is still there (58 characters)",
+  "10:22:16 pad typed \"typed after the move.\" on ARM server c79d2649 (version 3)"
+ ],
+ "consoleErr": []
+}
